@@ -5,7 +5,7 @@ Versão em ingles disponível [aqui](https://github.com/LeandrodSouza/PythonOrac
 * Neste exemplo, o caminho principal é C:\PythonOracleDockerExample
 * adicione seu arquivo TNSNAMES.ORA em C:\PythonOracleDockerExemple\root\etc\oracle 
 * Agora no arquivo ConnectorOracle.py na função connection() insira os valores para p_IP = '' p_PORT = '' p_SID = '' p_USER = '' p_PASS = ''
-## Executar neste diretório:
+## No diretório C:\PythonOracleDockerExample executar:
  * Docker-compose up --build
 ## acesso
  * http://localhost/api

@@ -1,12 +1,11 @@
-# Simple example of an application running Python, Flask and Oracle Client using Docker Desktop on Windows.
+Portuguese version available [here](https://github.com/LeandrodSouza/PythonOracleDockerExemple/blob/main/README.md).
 
-** Make sure the root folder has all permissions.
-** In this example, the main path is C:\PythonOracleDockerExample
-** Add in C:\PythonOracleDockerExemple\root\etc\oracle your TNSNAMES.ORA
-** Now in file ConectorOracle.py at def connection() insert the values for p_IP = '' p_PORT = '' p_SID = '' p_USER = '' p_PASS = ''
-
+# Simple example of an application using Python, Flask and Oracle Client or Docker Desktop on Windows.
+* Make sure the root folder has all permissions.
+* In this example the main path is C:\PythonOracleDockerExample
+* add your TNSNAMES.ORA file in C:\PythonOracleDockerExemple\root\etc\oracle
+* Now in the ConnectorOracle.py file in the connection() function enter the values ​​for p_IP = '' p_PORT = '' p_SID = '' p_USER = '' p_PASS = ''
 ## Run in this directory:
- * Docker-compose up --build
-
-## acess 
+ * docker-compose up --build
+## access
  * http://localhost/api

@@ -1,4 +1,4 @@
-Portuguese version available [here](https://github.com/LeandrodSouza/PythonOracleDockerExemple/blob/main/README.md).
+ [Versão em Português -PT-BR](https://github.com/LeandrodSouza/PythonOracleDockerExemple/blob/main/README.md).
 
 # Simple example of a Docker Desktop image on Windows using Python, Flask and Oracle Client.
 * root - make sure the folder has all permissions.

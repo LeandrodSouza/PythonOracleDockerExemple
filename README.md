@@ -1,6 +1,5 @@
 Versão em ingles disponível [aqui](https://github.com/LeandrodSouza/PythonOracleDockerExemple/blob/main/README-en-us.md).
 
-<<<<<<< HEAD
 # Exemplo simples de um aplicativo executando Python, Flask e Oracle Client usando o Docker Desktop no Windows.
 * Certifique-se de que a pasta raiz tenha todas as permissões.
 * Neste exemplo, o caminho principal é C:\PythonOracleDockerExample

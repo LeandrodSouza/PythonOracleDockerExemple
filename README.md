@@ -61,7 +61,7 @@ Uma API moderna, segura e eficiente para conexão e interação com bancos de da
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/oracle-connector-api.git
+   git clone https://github.com/LeandrodSouza/PythonOracleDockerExemple.git
    cd oracle-connector-api
    ```
 

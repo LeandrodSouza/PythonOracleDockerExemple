@@ -1,9 +1,28 @@
-version: '3.6'
+version: '3.8'
 
 services:
-  product-service:
+  oracle-api:
     build: .
+    container_name: oracle-api
+    restart: unless-stopped
     ports:
-      - "80:5000"
+      - "5000:5000"
     volumes:
-      - .:/code
+      - ./api:/app/api
+      - ./root:/app/root
+    env_file:
+      - .env
+    environment:
+      - TZ=America/Sao_Paulo
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - oracle-net
+
+networks:
+  oracle-net:
+    driver: bridge

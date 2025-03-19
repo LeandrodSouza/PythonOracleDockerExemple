@@ -150,3 +150,88 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Ambiente e configurações
+.env
+.env.*
+!.env.example
+*.conf
+
+# Arquivos Python gerados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Diretórios do VSCode
+.vscode/
+*.code-workspace
+
+# Diretórios do PyCharm/IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Outros arquivos de IDE
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.coverage
+.coverage.*
+
+# Relatórios e documentação gerada
+docs/_build/
+site/
+
+# Ambiente virtual
+venv/
+ENV/
+
+# Segurança e certificados
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.cer
+
+# Arquivos temporários do Docker
+.docker/data/
+docker-compose.override.yml
+
+# Secrets
+secrets.yml
+secrets.json
